@@ -1,3 +1,5 @@
+require 'acts_as_protocolable/railtie'
+
 module ActsAsProtocolable
   mattr_accessor :internal_user_id
 
